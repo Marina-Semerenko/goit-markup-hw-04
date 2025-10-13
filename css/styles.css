@@ -314,10 +314,7 @@ p {
      .social-icon {
     fill:  #f4f4fd;
      }
-   /*padding: 0 16px;
-padding-bottom: 32px;
-margin-top: 16px;*/
-
+ 
 /*Sechion 4 */
     .portfolio-section {
     padding: 120px 0 120px 0;  
@@ -464,8 +461,8 @@ margin-top: 16px;*/
         width: 40px;
         height: 40px;
     }
-      .social-link .ftr-link:hover,
-      .footer-icon .ftr-link:focus {
-        background-color: #31d0aa
+        .ftr-link:hover,
+        .ftr-link:focus {
+        background-color: #31d0aa;
         border-radius: 50%;
     }
