@@ -464,8 +464,8 @@ margin-top: 16px;*/
         width: 40px;
         height: 40px;
     }
-    .ftr-link:hover,
-    .ftr-link:focus {
+      .social-link .ftr-link:hover,
+      .footer-icon .ftr-link:focus {
         background-color: #31d0aa
         border-radius: 50%;
     }
