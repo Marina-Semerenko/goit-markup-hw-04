@@ -179,7 +179,7 @@ p {
     border: none;
     cursor: pointer;
     text-align: center;
-    transition:cubic-bezier(background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .hero-btn:focus,
@@ -332,13 +332,14 @@ margin-top: 16px;*/
     list-style: none;
     gap: 24px;
     row-gap: 48px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+   }
 .portfolio-wrap {
     position: relative;
     overflow: hidden;
 }
-
+.portfolio-item {
+     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .overlay-text{
     position: absolute;
     top: 0;
@@ -463,8 +464,8 @@ margin-top: 16px;*/
         width: 40px;
         height: 40px;
     }
-    ftr-link:hover,
-    ftr-link:focus {
+    .ftr-link:hover,
+    .ftr-link:focus {
         background-color: #31d0aa
-        border-radius:50%;
+        border-radius: 50%;
     }
