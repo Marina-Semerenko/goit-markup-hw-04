@@ -453,9 +453,7 @@ p {
     .footer-icon {
         display: flex;
         gap: 16px;
-        padding: 0 16px;
-        padding-bottom: 32px;
-        margin-top: 16px;
+     
     }
     .icon-link {
         width: 40px;
